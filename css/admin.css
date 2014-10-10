@@ -1,0 +1,17 @@
+#global-editor-shell{
+	position: relative;
+	border: 1px solid #CCC;
+}
+.post-revisions{
+	max-height: 200px;
+	overflow-x: auto;
+}
+#revisionsdiv {
+	height: 260px;
+}
+.postbox {
+	height:85px;
+}
+.ace_print_margin_layer {
+	display:none;
+}
