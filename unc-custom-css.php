@@ -171,12 +171,10 @@ class UNC_Custom_CSS {
 	 * @return void
 	 */
 	public static function include_css() {
-		if( current_user_can( 'manage_options') ):
-			echo '<!-- Begin Custom CSS -->'. "\n";
-			echo '<style type="text/css">' . "\n";
-			echo self::get_css();
-			echo '</style><!-- End Custom CSS -->' . "\n";
-		endif;	
+		echo '<!-- Begin Custom CSS -->'. "\n";
+		echo '<style type="text/css">' . "\n";
+		echo self::get_css();
+		echo '</style><!-- End Custom CSS -->' . "\n";
 	}
 
 	/**
